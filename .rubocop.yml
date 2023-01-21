@@ -1,5 +1,5 @@
 require: standard
 
 inherit_gem:
-  standard: config/base.yml
   syntax_tree: config/rubocop.yml
+  standard: config/base.yml
