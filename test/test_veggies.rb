@@ -8,6 +8,7 @@ class TestVeggies < Minitest::Test
   end
 
   def test_it_does_something_useful
-    assert false
+    assert_equal Veggies::Finder.by_name("Carrot"),
+                 { name: "Carrot", protein_per_100_gram: 2 }
   end
 end
