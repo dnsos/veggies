@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary =
     "A gem that provides nutritional information about some vegetables."
   spec.description =
-    "A gem that provides nutritional information about some vegetables. Note that this is mostly a just-for-fun project for learning how to create a Ruby gem."
+    "A gem that provides nutritional information about some vegetables. Note that this is a just-for-fun project."
   spec.homepage = "https://github.com/dnsos/veggies"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
