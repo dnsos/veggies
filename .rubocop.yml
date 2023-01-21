@@ -3,3 +3,8 @@ require: standard
 inherit_gem:
   syntax_tree: config/rubocop.yml
   standard: config/base.yml
+
+AllCops:
+  NewCops: enable
+  Exclude:
+    - vendor/**/*
