@@ -24,5 +24,9 @@ jobs:
       with:
         ruby-version: ${{ matrix.ruby }}
         bundler-cache: true
+    - name: Run bundle-audit
+      run: bundle exec bundle audit --update
+    - name: Run ruby_audit
+      run: bundle exec ruby-audit
     - name: Run the default task
       run: bundle exec rake

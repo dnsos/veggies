@@ -44,6 +44,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "standard"
   spec.add_development_dependency "syntax_tree"
   spec.add_development_dependency "minitest", "~> 5.0"
+  spec.add_development_dependency "bundler-audit", "~> 0.9"
+  spec.add_development_dependency "ruby_audit"
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
